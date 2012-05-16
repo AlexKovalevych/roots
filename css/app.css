@@ -2,9 +2,19 @@
    Base
    ========================================================================== */
 
-body { }
+body {
+    background: #444444;
+    color: white;
+}
 
+a {
+    color: #66AABB;
+    font-weight: bold;
+}
 
+p {
+    font-size: 15px;
+}
 
 /* =============================================================================
    Header
@@ -39,7 +49,9 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
    ========================================================================== */
 
 #sidebar { }
-
+#sidebar .well {
+    background-color: #000000;
+}
 
 
 /* =============================================================================
@@ -85,7 +97,7 @@ ol.commentlist img.avatar { float: left; margin-right: 10px; }
 .aligncenter { display: block; margin: 0 auto; }
 .alignleft { margin: 0 20px 20px 0; float: left; }
 .alignright { margin: 0 0 20px 20px; float: right; }
-
+.white { background-color: #FFFFFF; padding: 20px; }
 
 
 /* =============================================================================
